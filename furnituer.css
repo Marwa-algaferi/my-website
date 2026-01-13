@@ -196,5 +196,18 @@ nav a{
     opacity: 1;
     bottom: 50%;
 }
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
 
 
