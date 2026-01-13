@@ -198,28 +198,50 @@ nav a{
 }
 @media (max-width: 768px) {
 
-  /* navbar */
+  /* HEADER */
+  .header {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
   nav {
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+  }
+
+  .menu ul {
+    padding-top: 10px;
   }
 
   .menu ul li {
     display: block;
-    text-align: center;
+    padding: 10px 0;
   }
 
-  /* النص في الهيدر */
+  /* TEXT */
+  .text {
+    position: static;
+    transform: none;
+    width: 90%;
+    margin-top: 40px;
+  }
+
   .text h1 {
     font-size: 28px;
+    line-height: 1.3;
   }
 
   .text p {
-    font-size: 16px;
-    margin: 10px;
+    font-size: 15px;
+    margin: 15px 0;
   }
 
-  /* services */
+  .btn {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+
+  /* SERVICES */
   .services .row {
     flex-direction: column;
     align-items: center;
@@ -229,7 +251,7 @@ nav a{
     width: 100%;
   }
 
-  /* collections */
+  /* COLLECTIONS */
   .Collections .row {
     flex-direction: column;
     margin: 0;
@@ -244,3 +266,4 @@ nav a{
   }
 }
 
+ 
